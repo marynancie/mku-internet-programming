@@ -1,0 +1,41 @@
+.headerIconWrapper{
+    padding: 4px;
+    margin: 5px ;
+    position: relative;
+}
+.cartCounter{
+    position: absolute;
+    right: 0;
+    bottom: 60%;
+    border-radius: 10px;
+}
+#sideNav a{
+    font-size: 20px;
+    margin-top: 1rem;
+    display: inline-block;
+}
+.displayCard
+{
+   display: flex;
+}
+
+.itemWrapper{
+    border: 0.5px gray solid;
+    min-height: 200px;
+    min-width: 130px;
+    border-radius: 10px;
+    display: flex;
+    margin: 1px 2px;
+    justify-content: stretch;
+    align-items: flex-end;
+    padding: .5rem;
+}
+.item{
+  
+}
+.addToCartBtn.hasProductAdded{
+    background-color: yellow !important;
+}
+.hide{
+    display: none;
+}
